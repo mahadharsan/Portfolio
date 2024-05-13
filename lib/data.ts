@@ -12,7 +12,7 @@ import CricketImg from "@/public/MCST.png"
 import HangmanImg from "@/public/Hangman.jpg"
 import BikeImg from "@/public/BikeRecommendation.jpg"
 import LoanImg from "@/public/LoanDefault.jpg"
-import Resume from "@/public/Resume.pdf"
+// import Resume from "@/public/Resume.pdf"
 import htmLogo from "@/public/skills/html.svg" 
 import cppLogo from "@/public/skills/cpp.svg"
 import cssLogo from "@/public/skills/css.svg"
@@ -268,7 +268,7 @@ export const about = {
   name: 'Mahadharsan Ravichandran',
   role: 'Data Scientist/ Data analyst',
   description: 'Hello, I’m Mahahdharsan Ravichandran, a data enthusiast currently pursuing a Master of Science degree at the Northeastern University at Boston.',
-  resume: "Resume",
+  resume: "",
   social: {
     linkedin: 'https://www.linkedin.com/in/mahadharsan-ravichandran',
     github: 'https://github.com/mahadharsan'
