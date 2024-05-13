@@ -9,7 +9,8 @@ import { FaGithub, FaFile} from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import ParticleContainer from "./particle-container";
-import naveen from "@/public/naveen.jpg";
+import MD from "@/public/MD.png";
+
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -33,7 +34,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src={naveen}
+              src={MD}
               alt="Naveen portrait"
               width="192"
               height="192"
@@ -64,12 +65,12 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Naveen, a passionate computer scientist specializing in Intelligent Systems.</span> I'm currently pursuing a {" "}
-        <span className="font-bold">Master of Science in Computer Science</span> at{" "}
-        <a href="https://www.utdallas.edu/" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline underline-offset-2">The University of Texas - Dallas</a>{" "}
+        <span className="font-bold">Hello, I'm Mahadharsan, a passionate data enthusiast currently pursuing {" "}</span>
+        <span className="font-bold">Master of Science in Data Science</span> at{" "}
+        <a href="" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline underline-offset-2">Northeastern University - Boston</a>{" "}
         building upon my strong educational foundation from the{" "}
-        <a href="https://www.iitm.ac.in/" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline underline-offset-2">Indian Institute of Technology Madras (IIT-M)</a>, 
-        where I earned a Bachelor + Master of Technology degree in Mechanical Engineering with a Minor in Artificial Intelligence and Machine Learning.
+        <a href="" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline underline-offset-2">Vellore Institute of Technology (VIT)</a>, 
+        where I earned a Bachelor in Mechanical Engineering.
       </motion.h1>
 
       <motion.div
@@ -82,7 +83,7 @@ export default function Intro() {
       >
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://naveen015.github.io/Resume/Resume.pdf"
+          href="@/public/Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -100,7 +101,7 @@ export default function Intro() {
       >
         <a
           className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-          href="https://github.com/Naveen015"
+          href="https://github.com/mahadharsan"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -110,7 +111,7 @@ export default function Intro() {
 
         <a
           className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-          href="https://www.linkedin.com/in/naveen015/"
+          href="https://www.linkedin.com/in/mahadharsan-ravichandran/"
           target="_blank"
           rel="noopener noreferrer"
         >

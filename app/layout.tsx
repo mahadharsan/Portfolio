@@ -10,8 +10,8 @@ import { Toaster } from "react-hot-toast";
 const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Naveen | Software Engineer",
-  description: "MS in Computer Science from University of Texas at Dallas",
+  title: "Mahadharsan | MS Data Science",
+  description: "MS in Data Science from Northeastern University at Boston",
 };
 
 export default function RootLayout({
