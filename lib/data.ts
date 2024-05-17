@@ -102,7 +102,6 @@ export const projectsData = [
       "logos:python",
       "lucide:brain-circuit"
     ],
-    imageUrl: HangmanImg,
     githubLink: "https://github.com/mahadharsan/real_estate_price_predictor",
   },
   {
@@ -114,7 +113,6 @@ export const projectsData = [
       "logos:python",
       "lucide:brain-circuit"
     ],
-    imageUrl: HangmanImg,
     githubLink: "https://github.com/mahadharsan/fake_news_detector",
   },
   {
@@ -125,7 +123,6 @@ export const projectsData = [
     icons: [
       "logos:SQL",
       "lucide:brain-circuit"],
-    imageUrl: HangmanImg,
     githubLink: "https://github.com/mahadharsan/Optimizing-Online-sports-retail-revenue",
   },
   {
@@ -137,7 +134,6 @@ export const projectsData = [
       "logos:python",
       "lucide:brain-circuit"
     ],
-    imageUrl: HangmanImg,
     githubLink: "https://github.com/mahadharsan/Electronics_Sales_Data_Analysis_Project",
   },
   {

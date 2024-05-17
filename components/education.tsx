@@ -4,8 +4,8 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-import utdLogo from "@/public/utd-Logo.png";
-import iitmLogo from "@/public/iitm-Logo.png";
+import utdLogo from "@/public/NEU-logo.png";
+import iitmLogo from "@/public/vit-logo.jpg";
 import Image from "next/image";
 
 export default function Education() {
@@ -40,12 +40,11 @@ export default function Education() {
           <p className="text-lg font-medium">
             Master of Science
           </p>
-          <p>University of Texas at Dallas</p>
+          <p>Northeastern University</p>
           <p className="mt-1">Expected Graduation: May 2025</p>
-          <p className="my-1">GPA 3.56/4</p>
+          <p className="my-1">GPA 3.95/4</p>
           <ul className="list-disc pl-6">
-            <li>Major in Computer Science</li>
-            <li>Specialization in Intelligent Systems</li>
+            <li>Major in Data Science</li>
           </ul>
         </div>
       </div>
@@ -57,14 +56,13 @@ export default function Education() {
 
         <div>
           <p className="text-lg font-medium">
-            Bachelor + Master of Technology (Dual Degree)
+            Bachelor of Technology (Dual Degree)
           </p>
-          <p>Indian Institute of Technology Madras</p>
-          <p className="mt-1">Graduated in July 2022</p>
-          <p className="my-1">GPA 3.24/4</p>
+          <p>Vellore Institute of Technology Madras</p>
+          <p className="mt-1">Graduated in July 2021</p>
+          <p className="my-1">GPA 3.55/4</p>
           <ul className="list-disc pl-6">
             <li>Major in Mechanical Engineering</li>
-            <li>Minor in Artificial Intelligence / Machine Learning</li>
           </ul>
         </div>
       </div>
