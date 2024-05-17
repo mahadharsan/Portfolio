@@ -5,7 +5,7 @@ import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import utdLogo from "@/public/NEU-logo.png";
-import iitmLogo from "@/public/VIT-logo.jpg";
+import iitmLogo from "@/public/VIT-logo.jpeg";
 import Image from "next/image";
 
 export default function Education() {
