@@ -83,7 +83,7 @@ export default function Intro() {
       >
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="@/public/Resume.pdf"
+          href="https://drive.google.com/file/d/1554mmko23A9cpo5wcsh13tocOifiL0mh/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
