@@ -61,7 +61,7 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-0 sm:px-4 text-xl font-small !leading-[1.5] sm:text-3xl text-white max-w-[60rem] mx-auto text-justify"
+        className="mb-10 mt-4 px-0 sm:px-4 text-xl font-small !leading-[1.5] sm:text-xl text-white max-w-[60rem] mx-auto text-justify"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -87,9 +87,28 @@ export default function Intro() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Resume <FaFile className="opacity-70" />
+          DS Resume <FaFile className="opacity-70" />
+        </a>
+
+        <a
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
+          href="https://drive.google.com/file/d/1naG9916OEILigCWxHC3AbiltxM5Ipa4s/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          DA Resume <FaFile className="opacity-70" />
+        </a>
+
+        <a
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
+          href="https://drive.google.com/file/d/1dR3wbiaTqOPx1u-XR0gZfnwx4gIgq-dp/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SC Resume <FaFile className="opacity-70" />
         </a>
       </motion.div>
+
 
       <motion.div
         className="flex flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
