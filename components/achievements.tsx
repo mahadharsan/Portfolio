@@ -26,7 +26,7 @@ export default function Achievements() {
           }}
         className="mb-20 sm:mb-28 scroll-mt-28"
       >
-        <SectionHeading>Scholastic Achievements</SectionHeading>
+        <SectionHeading>Publications</SectionHeading>
         <div >
             {achievementsData.map((item, index) => (
             <React.Fragment key={index} >

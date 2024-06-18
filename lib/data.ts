@@ -231,32 +231,32 @@ export const skillsData =  [
 
 export const achievementsData = [
   {
+    year: "2020",
+    description: "Supply chain routing in a diary industry using heterogeneous fleet system: simulation-based approach"
+  },
+  {
     year: "2021",
-    description: "Awarded a Scholarship for Graduate Studies for receiving merit score in Graduate Aptitude Test in Engineering (GATE)"
+    description: "Application of multi grade fuzzy approach to compute the circularity index of manufacturing organizations"
   },
   {
-    year: "2019",
-    description: "Won Silver prize in DIC's Terrace Farming Robot for hilly areas challenge in Inter IIT Tech Meet among over 20+ teams"
+    year: "2021",
+    description: "Application of dmaic to reduce the rejection rate of starter motor shaft assembly in the automobile industry: a case study"
   },
   {
-    year: "2017",
-    description: "Qualified for Asia and Limca Book of Records for most number of robots cleaning an area (A Clean India Initiative)"
+    year: "2021",
+    description: "A QFD Approach for Selection of Design for Logistics Strategies"
   },
   {
-    year: "2017",
-    description: "Secured All India Rank 793 ( out of 200,000+ candidates ) in Joint Entrance Examination Advanced JEE-Adv"
+    year: "2021",
+    description: "Prioritization of barriers in industrial symbiosis implementation in automotive industry-Using ISM and MICMAC Analysis"
   },
   {
-    year: "2016",
-    description: "Qualified among top 1% in India for Final Level National Mathematics Talent Contest in class XI and XII"
+    year: "2022",
+    description: "Resilience strategies to recover from the cascading ripple effect in a copper supply chain through project management"
   },
   {
-    year: "2015",
-    description: "Awarded a Special Merit Certificate for Outstanding Performance in AISSE"
-  },
-  {
-    year: "2014",
-    description: "Qualified Junior Level National Mathematics Olympiad Contest in class IX"
+    year: "2024",
+    description: "Environment and economic analysis of reverse supply chain scenarios for remanufacturing using discrete-event simulation approach"
   }
  ] as const;
 
@@ -264,7 +264,7 @@ export const about = {
   name: 'Mahadharsan Ravichandran',
   role: 'Data Scientist/ Data analyst',
   description: 'Hello, I’m Mahahdharsan Ravichandran, a data enthusiast currently pursuing a Master of Science degree at the Northeastern University at Boston.',
-  resume: "",
+  resume: "https://drive.google.com/file/d/1554mmko23A9cpo5wcsh13tocOifiL0mh/view?usp=sharing",
   social: {
     linkedin: 'https://www.linkedin.com/in/mahadharsan-ravichandran',
     github: 'https://github.com/mahadharsan'
