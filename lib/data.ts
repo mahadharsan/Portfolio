@@ -90,7 +90,7 @@ export const experiencesData = [
     description1: "• Analyzed a dataset of 10,000 sales records enabling the generation of daily reports for a group of cosmetic stores",
     description2: "• Boosted sales revenue by $50,000 (10% growth) by data-driven analysis of market trends and customer behavior",
     icon: React.createElement(CgWorkAlt),
-    date: "October 2021 - November 2022",
+    date: "October 2021 - November 2021",
   },
   {
     title: "Supply chain analyst intern",
@@ -99,7 +99,7 @@ export const experiencesData = [
     description1: "• Developed a discrete-event simulation using Arena, reducing remanufacturing and transportation costs by 75%",
     description2: "• Collaborated with international clients and published findings in a peer-reviewed journal",
     icon: React.createElement(CgWorkAlt),
-    date: "October 2021 - November 2022",
+    date: "Feburary 2021 - June 2021",
   },
 ] as const;
 
