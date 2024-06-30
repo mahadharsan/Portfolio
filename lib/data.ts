@@ -5,6 +5,8 @@ import kahanaLogo from "@/public/kahana_logo.ico"
 import qbLogo from "@/public/quantitative_brokers_logo.ico"
 import bdsrLogo from "@/public/bdsr_logo.ico"
 import tvsLogo from "@/public/tvs_logo.ico"
+import CognizantLogo from "@/public/Cognizant-Logo.png"
+import Sundaramlogo from "@/public/Sundaram-logo.jpg"
 
 import DQNImg from "@/public/QLearningvsDQN.png"
 import GLCMImg from "@/public/Methodology_GLCM.jpeg"
@@ -75,7 +77,7 @@ export const experiencesData = [
   {
     title: "Data Engineer - Full Time",
     location: "Cognizant",
-    company_icon: kahanaLogo,
+    company_icon: CognizantLogo,
     description1: "• Managed the ETL process for the migration of approximately 75,000 claims of Liberty Mutual Insurance",
     description2: "• Extracted data using MS SQL Server and DB Visualizer, ensuring data extraction, querying, and validation",
     icon: React.createElement(CgWorkAlt),
@@ -84,9 +86,18 @@ export const experiencesData = [
   {
     title: "Data analyst intern",
     location: "Cognizant",
-    company_icon: qbLogo,
+    company_icon: CognizantLogo,
     description1: "• Analyzed a dataset of 10,000 sales records enabling the generation of daily reports for a group of cosmetic stores",
     description2: "• Boosted sales revenue by $50,000 (10% growth) by data-driven analysis of market trends and customer behavior",
+    icon: React.createElement(CgWorkAlt),
+    date: "October 2021 - November 2022",
+  },
+  {
+    title: "Supply chain analyst intern",
+    location: "Sundaram Fasterners Limited",
+    company_icon: Sundaramlogo,
+    description1: "• Developed a discrete-event simulation using Arena, reducing remanufacturing and transportation costs by 75%",
+    description2: "• Collaborated with international clients and published findings in a peer-reviewed journal",
     icon: React.createElement(CgWorkAlt),
     date: "October 2021 - November 2022",
   },

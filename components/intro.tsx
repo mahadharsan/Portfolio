@@ -83,20 +83,20 @@ export default function Intro() {
       >
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://drive.google.com/file/d/1554mmko23A9cpo5wcsh13tocOifiL0mh/view?usp=sharing"
+          href="https://drive.google.com/file/d/1YA_wFEIbKlH4UdUyY7ruXcoJhDqqoY-t/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
-          DS Resume <FaFile className="opacity-70" />
+          Data Science Resume <FaFile className="opacity-70" />
         </a>
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://drive.google.com/file/d/1naG9916OEILigCWxHC3AbiltxM5Ipa4s/view?usp=sharing"
+          href="https://drive.google.com/file/d/1fS7le8yRmtfwjLMTrGGYR4qwwEkWx7pf/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
-          DA Resume <FaFile className="opacity-70" />
+          Data Analytics Resume <FaFile className="opacity-70" />
         </a>
 
         <a
