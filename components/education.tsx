@@ -56,9 +56,9 @@ export default function Education() {
 
         <div>
           <p className="text-lg font-medium">
-            Bachelor of Technology (Dual Degree)
+            Bachelor of Technology
           </p>
-          <p>Vellore Institute of Technology Madras</p>
+          <p>Vellore Institute of Technology</p>
           <p className="mt-1">Graduated in July 2021</p>
           <p className="my-1">GPA 3.55/4</p>
           <ul className="list-disc pl-6">
