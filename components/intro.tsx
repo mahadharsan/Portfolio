@@ -137,6 +137,16 @@ export default function Intro() {
           <span className="opacity-70">LinkedIn</span>
           <BsLinkedin className="opacity-70" />
         </a>
+
+        <a
+          className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
+          href="https://scholar.google.com/citations?hl=en&user=oUNyeYMAAAAJ"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="opacity-70">Google Scholar</span>
+          <BsLinkedin className="opacity-70" />
+        </a>
       </motion.div>
     </section>
   );
