@@ -114,7 +114,7 @@ export const projectsData = [
     description: "This is a comprehensive end to end data analysis, engineering and machine learning project. The analysis focuses on customer segmentation, data collection and integration, data storage, and machine learning models for forecasting of sales",
     tags: ["SQL", "Machine Learning"],
     icons: [
-      "logos:MySQL"
+      mysqlLogo
       ],
     githubLink: "https://github.com/mahadharsan/Home_Retail_End-End_Project",
   },
@@ -153,7 +153,7 @@ export const projectsData = [
       "Implemented advanced SQL queries to analyze product data for an online sport company, identifying pricing trends, discount strategies, and revenue drivers. Analyzed over 3,000 products and generated insights leading to a potential revenue increase of 15%. Recommended discount adjustments based on analysis, potentially saving the company $50,000 in annual revenue.",
     tags: ["SQL"],
     icons: [
-      "logos:MySQL"
+      "logos:"
       ],
     githubLink: "https://github.com/mahadharsan/Optimizing-Online-sports-retail-revenue",
   },

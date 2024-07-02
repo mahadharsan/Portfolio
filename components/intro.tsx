@@ -68,9 +68,9 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Mahadharsan, a passionate data enthusiast currently pursuing {" "}</span>
         <span className="font-bold">Master of Science in Data Science</span> at{" "}
         <a href="" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline underline-offset-2">Northeastern University - Boston</a>{" "}
-        building upon my strong educational foundation from the{" "}
-        <a href="" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline underline-offset-2">Vellore Institute of Technology (VIT)</a>, 
-        where I earned a Bachelor in Mechanical Engineering.
+        building upon my strong data foundation from {" "}
+        <a href="" target="_blank" rel="noopener noreferrer" className="font-bold hover:underline underline-offset-2">Cognizant</a>, 
+        where I worked as Data Engineer. I did my Bachelors in Vellore Institute of Technology (VIT), Mechanical Engineering.
       </motion.h1>
 
       <motion.div
@@ -105,7 +105,7 @@ export default function Intro() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          SC Resume <FaFile className="opacity-70" />
+          SC Analyst Resume <FaFile className="opacity-70" />
         </a>
       </motion.div>
 
