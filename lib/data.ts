@@ -42,9 +42,9 @@ import scikitlearnLogo from "@/public/skills/scikit-learn.svg"
 import tableauLogo from "@/public/tableaulogo.svg"
 import pandasLogo from "@/public/Pandas.svg"
 import Rlogo from "@/public/Rlogo.svg"
-import informaticaLogo from "@/public/informaticaLogo"
-import MSSQLLogo from "@/public/mssqlserverLogo"
-import PowerBILogo from "@/public/PoweBILogo"
+import informaticaLogo from "@/public/informaticaLogo.svg"
+import MSSQLLogo from "@/public/mssqlserverLogo.svg"
+import PowerBILogo from "@/public/PoweBILogo.svg"
 
 
 export const links = [
