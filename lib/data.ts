@@ -114,7 +114,7 @@ export const projectsData = [
     description: "This is a comprehensive end to end data analysis, engineering and machine learning project. The analysis focuses on customer segmentation, data collection and integration, data storage, and machine learning models for forecasting of sales",
     tags: ["SQL", "Machine Learning"],
     icons: [
-      mysqlLogo
+      "lucide:mysql"
       ],
     githubLink: "https://github.com/mahadharsan/Home_Retail_End-End_Project",
   },
@@ -136,7 +136,7 @@ export const projectsData = [
       "logos:python",
       "logos:Tableau"
       ],
-    TableauLink: "https://public.tableau.com/app/profile/m.ravichandran/viz/Dataanalystinterncasestudy/Dashboard1",
+    urlLink: "https://public.tableau.com/app/profile/m.ravichandran/viz/Dataanalystinterncasestudy/Dashboard1",
   },
   {
     title: "Skin Cancer Prediction Using Machine Learning",
