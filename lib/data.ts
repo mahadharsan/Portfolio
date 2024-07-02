@@ -44,7 +44,7 @@ import pandasLogo from "@/public/Pandas.svg"
 import Rlogo from "@/public/Rlogo.svg"
 import informaticaLogo from "@/public/informaticaLogo.svg"
 import MSSQLLogo from "@/public/mssqlserverLogo.svg"
-import PowerBILogo from "@/public/PoweBILogo.svg"
+import PowerBILogo from "@/public/PowerBILogo.svg"
 
 
 export const links = [
