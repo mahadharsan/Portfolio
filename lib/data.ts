@@ -114,7 +114,7 @@ export const projectsData = [
     description: "This is a comprehensive end to end data analysis, engineering and machine learning project. The analysis focuses on customer segmentation, data collection and integration, data storage, and machine learning models for forecasting of sales",
     tags: ["SQL", "Machine Learning"],
     icons: [
-      "lucide:mysql"
+      "logos:python"
       ],
     githubLink: "https://github.com/mahadharsan/Home_Retail_End-End_Project",
   },
@@ -250,7 +250,7 @@ export const skillsData =  [
   },
   {
     name: "Power BI",
-    icon: firebaseLogo,
+    icon: PowerBILogo,
     link: "https://firebase.org/",
   },
   {

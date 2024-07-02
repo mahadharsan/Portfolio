@@ -52,7 +52,7 @@ export default function Project({
             <h3 className="text-2xl font-semibold mb-4">{title}</h3>
             {icons && (<ul className="flex flex-wrap gap-2 mb-3 sm:mt-auto">
               <p className="font-bold text-gray-500 dark:text-white/70">
-                Made with:{" "}
+                {/* Made with:{" "} */}
               </p>
               {icons.map((icon, iconIndex) => (
                 <Icon key={iconIndex} icon={icon} className="mr-3 text-2xl" />
