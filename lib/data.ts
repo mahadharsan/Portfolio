@@ -40,7 +40,11 @@ import androidLogo from "@/public/skills/android.svg"
 import arduinoLogo from "@/public/skills/arduino.svg"
 import scikitlearnLogo from "@/public/skills/scikit-learn.svg"
 import tableauLogo from "@/public/tableaulogo.svg"
-
+import pandasLogo from "@/public/Pandas.svg"
+import Rlogo from "@/public/Rlogo.svg"
+import informaticaLogo from "@/public/informaticaLogo"
+import MSSQLLogo from "@/public/mssqlserverLogo"
+import PowerBILogo from "@/public/PoweBILogo"
 
 
 export const links = [
@@ -110,7 +114,7 @@ export const projectsData = [
     description: "This is a comprehensive end to end data analysis, engineering and machine learning project. The analysis focuses on customer segmentation, data collection and integration, data storage, and machine learning models for forecasting of sales",
     tags: ["SQL", "Machine Learning"],
     icons: [
-      "logos:mysqlLogo"
+      "logos:MySQL"
       ],
     githubLink: "https://github.com/mahadharsan/Home_Retail_End-End_Project",
   },
@@ -120,17 +124,17 @@ export const projectsData = [
     tags: ["Python", "Machine Learning"],
     icons: [
       "logos:python",
-      "logos:mysqlLogo",
+      "logos:MySQL",
       "lucide:brain-circuit"],
     githubLink: "https://github.com/mahadharsan/Home_Retail_End-End_Project",
   },
   {
-    title: "RevOps analytics of an insurance firm",
+    title: "RevOps Data Analytics of an Insurance Firm",
     description: "In this project, Revenue Operations of an insurance firm is enhanced through data analytics. The number is quotes given to clients and analysis is done to understand why this phenomenon happens. Results were visualised in Tableau as well",
     tags: ["Python", "Data analysis"],
     icons: [
       "logos:python",
-      "logos:tableaulogo"
+      "logos:Tableau"
       ],
     TableauLink: "https://public.tableau.com/app/profile/m.ravichandran/viz/Dataanalystinterncasestudy/Dashboard1",
   },
@@ -149,7 +153,7 @@ export const projectsData = [
       "Implemented advanced SQL queries to analyze product data for an online sport company, identifying pricing trends, discount strategies, and revenue drivers. Analyzed over 3,000 products and generated insights leading to a potential revenue increase of 15%. Recommended discount adjustments based on analysis, potentially saving the company $50,000 in annual revenue.",
     tags: ["SQL"],
     icons: [
-      "logos:mysqlLogo"
+      "logos:MySQL"
       ],
     githubLink: "https://github.com/mahadharsan/Optimizing-Online-sports-retail-revenue",
   },
@@ -251,12 +255,12 @@ export const skillsData =  [
   },
   {
     name: "Tableau",
-    icon: linuxLogo,
+    icon: tableauLogo,
     link: ""
   },
   {
     name: "Pandas",
-    icon: androidLogo,
+    icon: pandasLogo,
     link: ""
   },
   {
@@ -275,16 +279,16 @@ export const skillsData =  [
   },
   {
     name: "R",
-    icon: arduinoLogo,
+    icon: Rlogo,
     link: ""
   },
   {
     name: "Informatica Powercenter",
-    icon: javaLogo,
+    icon: informaticaLogo,
   },
   {
     name: "MS SQL Server",
-    icon: javaLogo,
+    icon: MSSQLLogo,
   },
 ] as const;
 
