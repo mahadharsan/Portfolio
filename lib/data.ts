@@ -113,29 +113,24 @@ export const projectsData = [
     title: "End to End Home Retail Project (Data analysis, Data engineering and Machine Learning)",
     description: "This is a comprehensive end to end data analysis, engineering and machine learning project. The analysis focuses on customer segmentation, data collection and integration, data storage, and machine learning models for forecasting of sales",
     tags: ["SQL", "Machine Learning"],
-    icons: [      ],
     githubLink: "https://github.com/mahadharsan/Home_Retail_End-End_Project",
   },
   {
     title: "B2C e-commerce Sales and Return analytics",
     description: "Data analysis of return analytics of a real life e-commerce using SQL serves in making informed decisions of the company",
     tags: ["Python", "Machine Learning"],
-    icons: [
-      "logos:MySQL"],
     githubLink: "https://github.com/mahadharsan/Home_Retail_End-End_Project",
   },
   {
     title: "RevOps Data Analytics of an Insurance Firm",
     description: "In this project, Revenue Operations of an insurance firm is enhanced through data analytics. The number is quotes given to clients and analysis is done to understand why this phenomenon happens. Results were visualised in Tableau as well",
     tags: ["Python", "Data analysis"],
-    icons: [     ],
     urlLink: "https://public.tableau.com/app/profile/m.ravichandran/viz/Dataanalystinterncasestudy/Dashboard1",
   },
   {
     title: "Skin Cancer Prediction Using Machine Learning",
     description: "This project uses transfer learning from a pretrained MobileNetV2 to predict skin cancer based on images.",
     tags: ["Python", "Machine Learning"],
-    icons: [],
     githubLink: "https://github.com/mahadharsan/Skin_Caner_Prediction",
   },
   {
@@ -143,9 +138,6 @@ export const projectsData = [
     description:
       "Implemented advanced SQL queries to analyze product data for an online sport company, identifying pricing trends, discount strategies, and revenue drivers. Analyzed over 3,000 products and generated insights leading to a potential revenue increase of 15%. Recommended discount adjustments based on analysis, potentially saving the company $50,000 in annual revenue.",
     tags: ["SQL"],
-    icons: [
-      "logos:"
-      ],
     githubLink: "https://github.com/mahadharsan/Optimizing-Online-sports-retail-revenue",
   },
   {
@@ -153,7 +145,6 @@ export const projectsData = [
     description:
       "Merged, cleaned 185,950 entries from 12 months of sales data using Pandas, revealing Dec as highest sales month. Conducted EDA, identifying sales trends, recommending targeted marketing strategies for 20% increase revenue.",
     tags: ["Pandas", "Matplotlib"],
-    icons: [    ],
     githubLink: "https://github.com/mahadharsan/Electronics_Sales_Data_Analysis_Project",
   },
   {
@@ -161,23 +152,18 @@ export const projectsData = [
     description:
       "Created a comprehensive Tableau dashboard tracking European supermarkets’ sales, highlighting regional KPIs and enabling informed decision-making.",    
     tags: ["Tableau","Data Analysis"],
-    icons: [
-      "logos:Tableau"
-    ],
     urlLink: "https://public.tableau.com/app/profile/m.ravichandran/viz/EUMartDashboard_17062885209590/EUMartAnalysis"
   },
   {
     title: "Breast Cancer Classification Using Machine Learning",
     description: "This project aims to analyze and classify breast cancer data using support vector technique. The dataset used is the Breast Cancer Wisconsin (Diagnostic) Data Set.",
     tags: ["Python", "Machine Learning"],
-    icons: [],
     githubLink: "https://github.com/mahadharsan/Breast_Cancer_Classification",
   },
   {
     title: "Predictive Diabetes Diagnosis Using Machine Learning",
     description: "Devised a diabetes prediction model leveraging ML techniques by utilizing a dataset of 768 individuals. Employed a Support Vector Machine (SVM) classifier with a linear kernel for binary classification task. Achieved predictive accuracy of 88.7% during training, 87.3% on the test dataset demonstrating model's capability.",
     tags: ["Python", "Machine Learning"],
-    icons: [],
     githubLink: "https://github.com/mahadharsan/diabetes_predictor",
   },
   {
@@ -185,7 +171,6 @@ export const projectsData = [
     description:
           "Generated a text-based binary classification model; distinguish real and fake news articles using 20,800 articles. Employed NLP techniques, including text preprocessing, TF-IDF vectorization, and logistic regression. Secured an impressive accuracy of 98.6% in training phase, 97.9% on the test data, underscoring model's resilience.",  
     tags: ["Python", "Machine Learning", "Classification"],
-    icons: [    ],
     githubLink: "https://github.com/mahadharsan/fake_news_detector",
   },
   {
@@ -193,14 +178,12 @@ export const projectsData = [
     description:
       "Developed a Machine Learning model for Bengaluru real estate that predicts property prices using Linear Regression. Cleaned, preprocessed 13,320 listings dataset, removing outliers, and handling missing data to ensure data quality. Leveraged Exploratory Data Analysis (EDA) statistics and visualizations to reveal patterns, trends and anomalies",
     tags: ["Python", "Machine Learning", "Computer Vision", "GLCM"],
-    icons: [    ],
     githubLink: "https://github.com/mahadharsan/real_estate_price_predictor",
   },
   {
     title: "Image Processing and Manipulation (IPAM)",
     description: "Created a user-friendly image processing package with two modules without aid of image manipulation libraries. Designed image processing algorithms, enabling cropping & rotation, 30% faster using NumPy & Matplotlib. Offered seamless flipping and a range of 10 artistic filters for creative enhancement.",
     tags: ["Python", "Pandas", "Numpy"],
-    icons: [ ],
   },
 ] as const;
 
