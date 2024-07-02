@@ -10,7 +10,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import ParticleContainer from "./particle-container";
 import MD from "@/public/MD.png";
-import { FaGoogleScholar } from "react-icons/fa6";
+import { SiGooglescholar } from "react-icons/si";
 
 
 export default function Intro() {
@@ -146,7 +146,7 @@ export default function Intro() {
           rel="noopener noreferrer"
         >
           <span className="opacity-70">Google Scholar</span>
-          <FaGoogleScholar className="opacity-70" />
+          <SiGooglescholar className="opacity-70" />
         </a>
       </motion.div>
     </section>
